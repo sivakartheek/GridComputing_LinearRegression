@@ -1,0 +1,6 @@
+Executable = "/usr/bin/env";
+Arguments = "python calculation.py";
+StdOutput = "std.out";
+StdError = "std.err";
+InputSandbox = {"calculation.py","04cars.dat"};
+OutputSandbox = {"std.out", "std.err", "data.pickle"};
